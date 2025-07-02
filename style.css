@@ -1,4 +1,3 @@
-
 /* === STYLE.CSS - FUTURISTIK DARK === */
 * {
   margin: 0;
@@ -204,4 +203,42 @@ body.light-mode .theme-switch .slider::before {
   margin-top: 0.5rem;
   font-style: italic;
   color: #c9d1d9;
+}
+
+
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .logo {
+    margin-bottom: 0.5rem;
+  }
+
+  section, main, .content, .card, .container {
+    width: 100% !important;
+    padding: 1rem !important;
+    margin: 0 auto !important;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1, h2, h3, p {
+    text-align: center;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card img {
+    margin: 0 auto 1rem auto;
+  }
 }
