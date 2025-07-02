@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Profil Rizla - Data enthusiast yang suka visualisasi dan analisis jejaring sosial." />
+  <title>Profil - Rizla</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">You Are On My Profile Right Now</div>
+    <div class="theme-switch">
+      <label>
+        <input type="checkbox" id="theme-toggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Beranda</a>
+      <a href="projects.html">Proyek</a>
+      <a href="skills.html">Keahlian</a>
+      <a href="profile.html">Profil</a>
+    </div>
+  </nav>
+
+  <section data-aos="fade-up">
+    <h1>Halo, saya Rizla 👋</h1>
+    <div class="card">
+      <p>Saya adalah seorang pegiat data yang percaya bahwa di balik angka-angka, selalu ada cerita yang bisa diungkap.
+Ketertarikan saya pada visualisasi dan analisis jejaring sosial membawa saya menjelajahi dunia data dari sudut yang berbeda — lebih visual, lebih bermakna.</p>
+    </div>
+  </section>
+<section data-aos="fade-up">
+  <h2>Apa yang Saya Percaya</h2>
+  <div class="card">
+    <p>
+      Saya percaya bahwa <strong>koding bukan hanya tentang sintaks</strong>, tapi tentang cara berpikir yang sistematis, logis, dan kreatif.  
+      Setiap baris kode yang saya tulis adalah bagian dari solusi nyata untuk masalah dunia nyata.
+    </p>
+    <p>
+      Saya juga meyakini bahwa <strong>kolaborasi lebih penting dari kompetisi</strong>. Saya suka belajar dari orang lain dan berbagi apa yang saya tahu.
+    </p>
+    <p>
+      Dan yang paling penting, saya percaya bahwa <strong>belajar tidak pernah berhenti</strong>. Dunia teknologi selalu berkembang, dan saya ingin terus tumbuh bersama dengannya.
+    </p>
+  </div>
+</section>
+
+  <section data-aos="fade-up">
+    <h2>Perjalanan Saya</h2>
+    <div class="card">
+      <ul>
+        <li>🧠 Mulai belajar Python — 2024</li>
+        <li>📈 Kenal Gephi & visualisasi jaringan — 2025</li>
+        <li>💼 Mulai proyek scraping berita — 2025</li>
+        <li>🌐 Bangun website portofolio ini — 2025</li>
+      </ul>
+    </div>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>Fun Facts</h2>
+    <div class="card">
+      <ul>
+        <li>💡 Pernah scraping 10.000+ berita dalam 1 minggu</li>
+        <li>🕸️ pernah buat Proyek analisis hate coment di twiter (Twitter)</li>
+        <li>🌟 Percaya bahwa data bisa bicara jika divisualisasikan dengan tepat</li>
+      </ul>
+    </div>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>Hubungi Saya</h2>
+    <div class="card contact-form">
+      <p>Facebook: <a href="https://www.facebook.com/share/15emcCXnmp/" id="email" style="color: inherit;">Rizla</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/rizlajuan_?igsh=MWh6aWthYnlhZjJxNg==" id="Instagram" style="color: inherit;">@rizlajuan_</a></p>
+      <p>WhatsApp: <a href="https://wa.me/qr/JRBX7DFHBLALL1" id="email" style="color: inherit;;">+6281262141131</a></p>
+      <p>Email: <a href="mailto:rizlasitepu234@gmail.com" id="email" style="color: inherit;">rizlasitepu234@gmail.com</a></p>
+      <button class="btn" onclick="copyEmail()">📋 Salin Email</button>
+    </div>
+  </section>
+
+  <footer>© 2025 Rizla</footer>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 800 });
+    function copyEmail() {
+      navigator.clipboard.writeText("rizla@example.com");
+      alert("Email disalin ke clipboard!");
+    }
+  </script>
+</body>
+</html>
